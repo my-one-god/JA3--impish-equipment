@@ -1,9 +1,10 @@
 return PlaceObj('ModDef', {
-	'id', "ir5ndGr",
 	'title', "[MOG] Impish Equipment",
-	'author', "MyOneGod",
-	'version', 1,
 	'image', "[MOG] Impish Equipment.png",
+	'last_changes', "-",
+	'id', "ir5ndGr",
+	'author', "MyOneGod",
+	'version', 2,
 	'lua_revision', 233360,
 	'saved_with_revision', 350233,
 	'code', {
@@ -42,6 +43,8 @@ return PlaceObj('ModDef', {
 		MOG__ImpishEquipment__Option_Throwables_M3 = "-",
 	},
 	'has_data', true,
+	'saved', 1719166799,
+	'code_hash', -5623255067521411192,
 	'affected_resources', {
 		PlaceObj('ModResourcePreset', {
 			'Class', "LootDef",
