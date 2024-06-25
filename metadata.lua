@@ -1,10 +1,11 @@
 return PlaceObj('ModDef', {
 	'title', "[MOG] Impish Equipment",
 	'image', "[MOG] Impish Equipment.png",
-	'last_changes', "-",
+	'last_changes', "docs update",
 	'id', "ir5ndGr",
+	'steam_id', "3273987168",
 	'author', "MyOneGod",
-	'version', 2,
+	'version', 3,
 	'lua_revision', 233360,
 	'saved_with_revision', 350233,
 	'code', {
@@ -43,7 +44,7 @@ return PlaceObj('ModDef', {
 		MOG__ImpishEquipment__Option_Throwables_M3 = "-",
 	},
 	'has_data', true,
-	'saved', 1719166799,
+	'saved', 1719340927,
 	'code_hash', -5623255067521411192,
 	'affected_resources', {
 		PlaceObj('ModResourcePreset', {
@@ -159,37 +160,36 @@ return PlaceObj('ModDef', {
 	},
 	'TagBalancing&Difficulty', true,
 	'TagIMPCharacter', true,
-	'saved', 1719150676,
 	'description',
-	"[h1]Impish Equipment [MOG][/h1]\n"
-	.."[b][i]Custom Equipment for your IMPs[/i][/b]\n"
+	"[h1]Impish Equipment [MOG][/h1]"
+	.."\n[b][i]Custom Equipment for your IMPs[/i][/b]"
 	.."\n"
-	.."[h2]Credit[/h2]\n"
-	.."This Mod has been heavily inspired by "
+	.."\n[h2]Credit[/h2]"
+	.."\nThis Mod has been heavily inspired by "
 		.."[url=https://steamcommunity.com/id/mariOlof]mariOlof's[/url] "
 		.."Mod [url=https://steamcommunity.com/workshop/filedetails/?id=3006841718]Overhaul - Tactical IMP[/url]. "
-		.."Thanks go to him!\n"
+		.."Thanks go to him!"
 	.."\n"
-	.."[h2]Features[/h2]\n"
-	.."[h3]"
+	.."\n[h2]Features[/h2]"
+	.."\n[h3]"
 		.."[b]Assign individual Loadouts to your IMPs[/b]"
 		..": Each IMP gets an individual selection for each of the following"
-	.."[/h3]\n"
-	.."[list]\n"
-	.."	[*][b]Main Gun[/b]: "
-		.."Choose from several types of main gun to fill any battlefield role\n"
-	.."	[*][b]Sidearm[/b]: "
-		.."Select the sidearm that complements your main gun and playstyle\n"
-	.."	[*][b]Armor[/b]: "
-		.."Light, Heavy, or Camo (comes with an NVG instead of a helmet)"
-	.."	[*][b]Throwables[/b]: "
-		.."Things to throw into the ring\n"
-	.."	[*][b]Extra[/b]: "
-		.."That little bit to flesh out your crew, like lockpicks or first aid kits\n"
-	.."[/list]\n"
+	.."\n[/h3]"
+	.."\n[list]"
+	.."\n	[*][b]Main Gun[/b]: "
+		.."Choose from several types of main gun to fill any battlefield role"
+	.."\n	[*][b]Sidearm[/b]: "
+		.."Select the sidearm that complements your main gun and playstyle"
+	.."\n	[*][b]Armor[/b]: "
+		.."Light, Heavy, or Camo [i](comes with an NVG instead of a helmet)[/i]"
+	.."\n	[*][b]Throwables[/b]: "
+		.."Things to throw into the ring"
+	.."\n	[*][b]Extra[/b]: "
+		.."That little bit to flesh out your crew, like lockpicks or first aid kits"
+	.."\n[/list]"
 	.."\n"
-	.."[h2]Known issues[/h2]\n"
-	.."[list]\n"
-	.."[*]Currently only supports the default IMPs.\n"
-	.."[/list]\n"
+	.."\n[h2]Known issues[/h2]"
+	.."\n[list]"
+	.."\n[*]Currently only supports the default IMPs."
+	.."\n[/list]"
 })
